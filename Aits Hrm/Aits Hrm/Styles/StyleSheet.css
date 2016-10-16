@@ -1,0 +1,118 @@
+﻿
+.RadMenu 
+{
+    float: none;
+    
+}
+.rcbHeader ul,
+.rcbFooter ul,
+.rcbItem ul, .rcbHovered ul, .rcbDisabled ul
+{
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.col1, .col3
+{
+    float: left;
+    width: 145px;
+    margin: 0;
+    padding: 0 5px 0 0;
+    line-height: 14px;
+}
+.col2
+{
+    float: right;
+    width: 35px;
+    margin: 0;
+    padding: 0 5px 0 0;
+    line-height: 14px;
+}
+
+label,
+.selection-result
+{
+    font: 13px 'Segoe UI', Arial, sans-serif;
+    color: #4888a2;
+}
+
+label
+{
+    padding: 0 10px 0 0;
+}
+
+.button
+{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.selection-result
+{
+    padding: 10px 0 10px 0;
+    display: block;
+}
+
+div.bigModuleBottom
+{
+    padding-top: 25px;
+}
+
+.Menu
+{
+    z-index:1000;
+    width:60%;
+}
+.txtSearch
+{
+    float:right;
+    width:20%;
+}
+.breadcrumb
+{
+    float:left;
+    overflow:hidden;
+    width:80%;
+    
+}
+
+/*****************************************/
+.PagerButton
+{
+    padding: 1px;
+    cursor: pointer;
+    border: 0px;
+    background:transparent url(img/first.gif) no-repeat scroll center;
+    width: 20px;
+    height:20px;
+    vertical-align:middle;
+}
+.PagerButton:hover
+{
+    border: 1px solid #9EB6CE;
+    padding: 0px;
+}
+
+.FirstPage
+{
+    background:transparent url(img/first.gif) no-repeat scroll center;
+}
+
+.PrevPage
+{
+    background:transparent url(img/prev.gif) no-repeat scroll center;
+    margin-right: 6px;
+}
+
+.NextPage
+{
+    background:transparent url(img/next.gif) no-repeat scroll center;
+}
+
+.LastPage
+{
+    background:transparent url(img/last.gif) no-repeat scroll center;
+}

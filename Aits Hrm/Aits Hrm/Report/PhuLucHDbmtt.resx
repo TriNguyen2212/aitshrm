@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox7.Value" xml:space="preserve">
+    <value>Đại diện cho Công ty Cổ phần Tin học Viễn thông Hàng Không(AITS)
+Giấy ủy quyền  ngày 17  tháng 08  năm  2010  của Tổng giám đốc.
+Địa chỉ: 414 Nguyễn Văn Cừ - Long Biên – Hà Nội.
+Điện thoại: 04.38721387
+(Sau đây gọi tắt là “Công ty”)
+</value>
+  </data>
+  <data name="textBox11.Value" xml:space="preserve">
+    <value>- Ngày   {=ShowNgayThang(Fields.NgayKy)} Công ty và Người lao động đã ký kết Hợp đồng lao động số: {=Fields.SoHD}(sau đây gọi tắt là “Hợp đồng”), theo đó Người lao động đồng ý làm việc cho Công ty theo các quy định của Hợp đồng.
+- Các bên thống nhất bổ sung vào hợp đồng một số quy định liên quan đến vấn đề bảo mật thông tin và quyền sở hữu trí tuệ.</value>
+  </data>
+  <data name="textBox22.Value" xml:space="preserve">
+    <value>(i) Thông tin Mật là những thông tin, bao gồm nhưng không hạn chế chỉ là bất kỳ hay toàn bộ các độc quyền phát minh, sáng chế, kiểu dáng, thiết kế, mẫu mã, cải tiến, thay đổi kỹ thuật, bi quyết công nghệ, quy trình hoặc kỹ thuật quản lý; công thức, quy cách, bí quyết, thông tin liên quan đến dịch vụ, sản phẩm, tạo lập, đóng gói, quản lý và đảm bảo chất lượng sản phẩm; các vấn đề về thể chế doanh nghiệp; thông tin tài chính; các kế hoạch, danh sách khách hang, biểu giá, chính sách và quy trình định giá sản phẩm, thông tin về dữ liệu thị trường, dữ liệu sản phẩm, phần mềm và các bí mật thương mại khác liên quan đến sản phẩm/dịch vụ và hoạt động kinh doanh của Công ty; cũng như các mẫu, thiết bị, dụng cụ, máy móc chứa đựng các thông tin đó, hoặc sưu tập các thông tin được sử dụng hoặc cần được sử dụng phục vụ hoạt động kinh doanh của Công ty mà chưa được biết đến rộng rãi, được bảo hộ độc quyền hoặc không được bảo hộ độc quyền nhưng có thể tạo ra cho Công ty một cơ hội có được lợi thế hơn so với đối thủ cạnh tranh mà các đối thủ cạnh tranh này hiện không biết hoặc không sử dụng những thông tin này. Thông tin Mật bao gồm những thông tin của khách hàng của Công ty hoặc của bên thứ ba mà Công ty có nhiệm vụ giữ bí mật và Người lao động có được biết, biết được hoặc được giao để thực hiện trong trong quá trình thực hiện công việc theo Hợp đồng.</value>
+  </data>
+  <data name="textBox23.Value" xml:space="preserve">
+    <value>(i) Người lao động xác nhận rằng trong thời gian hiệu lực của Hợp đồng, Người lao động có thể tạo ra hoặc sáng tạo ra, cải tiến, đưa ra ý tưởng, chương trình máy tính, tác phẩm có quyền tác giả, và những loại khác (a) xuất phát từ hoặc trong phạm vi quan hệ của Người lao động với hoặc liên quan đến hoạt động kinh doanh của Công ty; hoặc (b) được tạo ra do sử dụng toàn bộ hoặc một phần thời gian hoặc nguồn lực của Công ty (“Sản phẩm Trí tuệ”) và tất cả Sản phẩm Trí tuệ là những sản phầm làm thuê do Người lao động tạo ra cho Công ty theo các điều khoản của Hợp đồng lao động với Công ty và chúng thuộc quyền sở hữu của Công ty.
+(ii) Người lao động tại đây thỏa thuận:
+ (a) Chuyển giao toàn bộ quyền, quyền sở hữu và lợi ích có trong hoặc liên quan đến tất cả Sản phẩm Trí tuệ cho Công ty;
+ (b) Công ty, các bên nhận li-xăng, các bên kế tụ quyền, nhận chuyển nhượng quyền (trực tiếp hoặc gián tiếp) của Công ty sẽ không cần thiết phải ghi rõ tên Người lao động là tác giả của bất cứ Sản phẩm Trí tuệ nào khi chúng được công bố công khai hoặc theo cách thức khác hoặc sẽ không cần phải xin phép Người lao động khi cần thay đổi tính toàn vẹn của tác phẩm;
+ (c) Từ bỏ và miễn thực hiện trong phạm vi pháp luật cho phép các quyền của mình liên quan đến Sản phẩm Trí tuệ đó;
+ (d) Khi được Công ty yêu cầu, Người lao động sẽ thực hiện các công việc cần thiết để đảm bảo quyền sở hữu của Công ty đối với Sản phẩm Trí tuệ.</value>
+  </data>
+  <data name="textBox31.Value" xml:space="preserve">
+    <value>(iii) Người lao động xác nhận và đồng ý rằng mình sẽ cũng giữ bí mật những thông tin liên quan đến lương và các lợi ích có liên quan của mình, thông tin liên quan đến cán bộ - nhân viên khác trong công ty, các công việc mà họ thực hiện, mức lương và các quyền lợi vật chất khác của họ. Trừ khi do yêu cầu của công việc được Công ty cho phép, hoặc trừ những thông tin đã biết đến rộng rãi, Người lao động sẽ không vì lợi ích của mình hay lợi ích của bất kỳ một bên thứ ba nào khác mà tiết lộ hoặc sử dụng bất kỳ thông tin nào liên quan đến vấn đề nhân sự của Công ty trong thời hạn hiệu lực của Hợp đồng hoặc sau khi chấm dứt quan hệ lao động trong bất kỳ hoàn cảnh nào.
+(iv) Trường hợp có yêu cầu tiết lộ, công bố Thông tin Mật của các cơ quan tư pháp và hành chính hay của bên thứ ba khác theo đúng quy định của pháp luật, Người lao động phải ngay lập tức báo cacos cho người có thẩm quyền của Công ty để quyết định và phối hợp thực hiện.
+(v) Nghĩa  vụ bảo mật và không sử dụng Thông tin Mật nêu trên của Người lao động sẽ tiếp tục có hiệu lức ngay cả khi Hợp đồng và/hoặc quan hệ lao động giữa Người lao động với Công ty chấm dứt vì bất kỳ lý do gì.</value>
+  </data>
+  <data name="textBox32.Value" xml:space="preserve">
+    <value>(ii) Người lao động nhận thức được ý nghĩa sống còn của Thông tin Mật đối với sự thành công trong kinh doanh của Công ty. Trong thời hạn hiệu lực của Hợp đồng và sau khi Hợp đồng chấm dứt vì bất kỳ lý do gì, Người lao động sẽ không vì lợi ích riêng của mình hay vì lợi ích hay yêu cầu của bất kỳ một bên thứ ba nào khác, bao gồm cả cơ quan tư pháp và cơ quan hành chính, , mà sử dụng hoặc tiết lộ bất kỳ Thông tin Mật nào, bao gồm cả Thông tin Mật do chính Người lao động tạo ra trong bất kỳ hoàn cảnh nào trừ khi được Công ty chấp thuận trước bằng văn bản  bản bản hoặc trừ khi và chỉ khi cho đến khi các thông tin này đã được công chúng biết đến một cách rộng rãi mà không phải do Người lao động tiết lộ.</value>
+  </data>
+  <metadata name="entityDataSource1.DefaultValues" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdUZWxlcmlrLlJlcG9ydGluZywgVmVyc2lvbj02LjAuMTIuMzMw
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWE5ZDc5ODNkZmNjMjYxYmUFAQAAADVUZWxl
+        cmlrLlJlcG9ydGluZy5PYmplY3REYXRhU291cmNlUGFyYW1ldGVyQ29sbGVjdGlvbgEAAAASQ29sbGVj
+        dGlvbmAxK2l0ZW1zA6kBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tUZWxlcmlrLlJl
+        cG9ydGluZy5PYmplY3REYXRhU291cmNlUGFyYW1ldGVyLCBUZWxlcmlrLlJlcG9ydGluZywgVmVyc2lv
+        bj02LjAuMTIuMzMwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWE5ZDc5ODNkZmNjMjYx
+        YmVdXQIAAAAJAwAAAAQDAAAAqQFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1RlbGVy
+        aWsuUmVwb3J0aW5nLk9iamVjdERhdGFTb3VyY2VQYXJhbWV0ZXIsIFRlbGVyaWsuUmVwb3J0aW5nLCBW
+        ZXJzaW9uPTYuMC4xMi4zMzAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YTlkNzk4M2Rm
+        Y2MyNjFiZV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAtVGVsZXJpay5SZXBvcnRpbmcuT2Jq
+        ZWN0RGF0YVNvdXJjZVBhcmFtZXRlcltdAgAAAAgICQQAAAABAAAAAgAAAAcEAAAAAAEAAAAEAAAABCtU
+        ZWxlcmlrLlJlcG9ydGluZy5PYmplY3REYXRhU291cmNlUGFyYW1ldGVyAgAAAAkFAAAADQMMBgAAAElT
+        eXN0ZW0sIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdh
+        NWM1NjE5MzRlMDg5BQUAAAArVGVsZXJpay5SZXBvcnRpbmcuT2JqZWN0RGF0YVNvdXJjZVBhcmFtZXRl
+        cgQAAAAIZGF0YVR5cGUYRGF0YVNvdXJjZVBhcmFtZXRlcituYW1lGURhdGFTb3VyY2VQYXJhbWV0ZXIr
+        dmFsdWUjRGF0YVNvdXJjZVBhcmFtZXRlcitQcm9wZXJ0eUNoYW5nZWQDAQIEH1N5c3RlbS5Vbml0eVNl
+        cmlhbGl6YXRpb25Ib2xkZXIxU3lzdGVtLkNvbXBvbmVudE1vZGVsLlByb3BlcnR5Q2hhbmdlZEV2ZW50
+        SGFuZGxlcgYAAAACAAAACQcAAAAGCAAAAAZpZFBMSEQKCgQHAAAAH1N5c3RlbS5Vbml0eVNlcmlhbGl6
+        YXRpb25Ib2xkZXIDAAAABERhdGEJVW5pdHlUeXBlDEFzc2VtYmx5TmFtZQEAAQgGCQAAAG5TeXN0ZW0u
+        TnVsbGFibGVgMVtbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+        PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQQAAAAGCgAAAEttc2Nvcmxp
+        YiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2
+        MTkzNGUwODkL
+</value>
+  </metadata>
+  <metadata name="$this.Zoom" type="System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1.5</value>
+  </metadata>
+  <metadata name="$this.ShowSnapGrid" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.SnapGridSize" type="Telerik.Reporting.Drawing.Unit, Telerik.Reporting, Version=6.0.12.330, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+    <value>0.1in</value>
+  </metadata>
+</root>

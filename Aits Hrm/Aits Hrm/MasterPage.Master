@@ -1,0 +1,228 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Aits_Hrm.MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>AITS HRM</title>
+</head>
+<link href="../Images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="../Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+<body>
+<form id="form1" runat="server">
+<div style="float:right;">
+    <asp:LinkButton ID="btnUsesrInfo" runat="server" CssClass="rfdAspLabel"></asp:LinkButton>|
+    <asp:LoginStatus ID="LoginStatus1" runat="server"  CssClass="rfdAspLabel"
+        OnLoggingOut="LoginStatus_Logout" LogoutText="Đăng xuất" LoginText="Đăng xuất" />
+</div>
+    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+		<Scripts>
+			<%--Needed for JavaScript IntelliSense in VS2010--%>
+			<%--For VS2008 replace RadScriptManager with ScriptManager--%>
+			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+		</Scripts>
+	</telerik:RadScriptManager>    
+    <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" Height="100%" Width="100%">
+    <div><%-- Menu --%>
+        <asp:Panel ID="MenuPanel" runat="server" >
+             <telerik:RadMenu ID="RadMenu1" runat="server" CssClass="Menu" Skin="Windows7" OnItemClick="RadMenu1_ItemClick"
+                 ClickToOpen="True" OnClientItemClicked="RadMenu1_ClientItemClicked">
+            <Items>
+                <telerik:RadMenuItem runat="server" Text="Hệ thống" PostBack="False">
+                    <Items>
+                        <telerik:RadMenuItem runat="server" NavigateUrl="~/Home/Home.aspx" Text="Trang chủ" />
+                        <telerik:RadMenuItem runat="server" Owner="" Enabled="false" Text="Sửa thông tin cá nhân" PostBack="False" />
+                        <telerik:RadMenuItem runat="server" Text="Đăng xuất" Value="dangxuat" />
+                    </Items>
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem runat="server" Text="Danh mục" Value="danhmuc" PostBack="False" Visible="false">
+                    <Items>
+                        <telerik:RadMenuItem runat="server" Text="Dân tộc" Value="dantoc" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Tôn giáo" Value="tongiao" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Quốc Tịch" Value="quoctich" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Tình trạng hôn nhân" Value="honnhan" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Quan hệ nhân thân" Value="nhanthan" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Loại hình đào tạo" Value="loaihinh" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Trình độ đào tạo" Value="trinhdo" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Loại chứng chỉ" Value="chungchi" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Chuyên ngành đào tạo" Value="chuyennganh" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Đơn vị đào tạo" Value="donvi" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Loại bằng đào tạo" Value="loaibang" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Loại hợp đồng" Value="loaihopdong" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Bậc ngạch" Value="bacngach" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Chức danh chuyên môn" Value="chucdanhchuyenmon" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Chức danh công việc" Value="chucdanhcongviec" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Cấp tổ chức" Value="captochuc" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Loại nghỉ" Value="loainghi" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Đơn giá XLCT" Value="dongiaxlct" PostBack="false" />
+                    </Items>
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem runat="server" Text="Quản lý" Value="quanly" PostBack="False">
+                    <Items>
+                        <%--<telerik:RadMenuItem runat="server" Text="Tuyển dụng" NavigateUrl="~/CV/TuyenDung.aspx" Value="tuyendung" Visible="false" />--%>
+                        <telerik:RadMenuItem runat="server" Text="Hồ sơ nhân viên" Value="hoso" NavigateUrl="~/CV/Hoso.aspx" />
+                        <telerik:RadMenuItem runat="server" Text="Hợp đồng lao động" value="hopdong" NavigateUrl="~/CV/HopDong.aspx" />
+                        <telerik:RadMenuItem runat="server" Text="Cơ cấu tổ  chức" value="cocautochuc" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Thu nhập nhân viên" Value="thunhap" Enabled="false" />
+                    </Items>
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem runat="server" Text="Quản trị" Value="quantri" PostBack="False">
+                    <Items>
+                        <telerik:RadMenuItem runat="server" NavigateUrl="~/QuanTri/TaiKhoan.aspx" Owner="" Text="Quản lý người dùng" />
+                        <telerik:RadMenuItem runat="server" Text="Phân quyền" NavigateUrl="~/QuanTri/PhanQuyen.aspx" />
+                        <telerik:RadMenuItem runat="server" Text="Sao lưu hệ thống" Value="saoluu" PostBack="false" />
+                    </Items>
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem runat="server" Owner="RadMenu1" Text="Trợ giúp" PostBack="False">
+                    <Items>
+                        <telerik:RadMenuItem runat="server" Text="Liên hệ" PostBack="false" />
+                        <telerik:RadMenuItem runat="server" Text="Giới thiệu" PostBack="false" />
+                    </Items>
+                </telerik:RadMenuItem>
+            </Items>
+        </telerik:RadMenu>
+        </asp:Panel>
+    </div><%-- End Menu --%>
+    
+	<%-- Splitter --%>
+        <asp:Panel ID="PanelSplitter" runat="server" Height="600px" Width="100%">
+            <telerik:RadSplitter ID="RadSplitter1" runat="server" Height="100%" Width="100%">
+            <telerik:RadPane ID="conttentleftpane" runat="server" Width="210px" Scrolling="None">
+                <telerik:RadSplitter ID="RadSplitter3" runat="server" Orientation="Horizontal">
+                    <telerik:RadPane ID="lefPane1" runat="server" Height="80%" >
+                       <asp:ContentPlaceHolder id="TopLeft" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </telerik:RadPane>
+                    <telerik:RadSplitBar ID="RadSplitbar4" runat="server" CollapseMode="None"></telerik:RadSplitBar>
+                    <telerik:RadPane ID="Leftpane2" runat="server">
+                        <asp:ContentPlaceHolder id="BottomLeft" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <div style="margin-top:20px;">
+                            <center>
+                                <img src="../Images/aits.jpg" alt="Logo AITS" width="160px" />
+                                <br />
+                                <label>Bản quyền thuộc về AITS</label>
+                            </center>
+                        </div>
+                    </telerik:RadPane>
+                </telerik:RadSplitter>
+            </telerik:RadPane>
+        <telerik:RadSplitBar ID="RadSplitbar1" runat="server" CollapseMode="None"></telerik:RadSplitBar>
+        <telerik:RadPane ID="contentPane" runat="server" Scrolling="None" Width="100%">
+            <telerik:RadSplitter ID="RadSplitter2" runat="server" Orientation="Horizontal">
+                <telerik:RadPane ID="topPane" runat="server" Scrolling="None" Height="67%">
+                    <div style="width:100%;">                       
+                        <telerik:RadSiteMap ID="BreadCrumbSiteMap" runat="server" DataTextField="Text" DataNavigateUrlField="NavigateUrl" CssClass="breadcrumb">
+                            <DefaultLevelSettings ListLayout-RepeatDirection="Horizontal" SeparatorText="/" Layout="Flow" />
+                        </telerik:RadSiteMap>
+                     </div><div style="clear:both;"></div>
+                    <asp:ContentPlaceHolder id="TopRight" runat="server">
+                    </asp:ContentPlaceHolder>
+                </telerik:RadPane>
+                <telerik:RadSplitBar ID="RadSplitbar2" runat="server" CollapseMode="None" Width="5px"></telerik:RadSplitBar>
+                <telerik:RadPane ID="bottomPane" runat="server">
+                    <asp:ContentPlaceHolder id="BottomRight" runat="server">
+                    </asp:ContentPlaceHolder>
+                </telerik:RadPane>
+            </telerik:RadSplitter>
+        </telerik:RadPane>
+    </telerik:RadSplitter>
+        </asp:Panel>
+	<%-- end Splitter --%>
+        <telerik:RadWindowManager ID="RadWindowMaster" runat="server">
+            <Windows>
+                <telerik:RadWindow ID="DialogWindow" ReloadOnShow="true" OnClientClose="OnClientclose"
+                   BackColor="Gray" Modal="true" runat="server" Width="1100" Height="550"
+                   VisibleStatusbar="false">
+                </telerik:RadWindow>
+                <telerik:RadWindow ID="DialogWindowDanhMuc" ReloadOnShow="true" OnClientClose="OnClientclose"
+                    runat="server" VisibleStatusbar="false"
+                    BackColor="Gray" Modal="true" Width="850" Height="500">
+                </telerik:RadWindow>
+                <telerik:RadWindow ID="DialogWindowHome" ReloadOnShow="true" OnClientClose="OnClientclose"
+                    BackColor="Gray" Modal="true" runat="server" Width="900" Height="500" VisibleStatusbar="false" >
+                </telerik:RadWindow>
+            </Windows>
+        </telerik:RadWindowManager>
+        <script type="text/javascript">
+            function showDialogDanhMuc( args,x,y) {
+                var oWnd = window.radopen("", "DialogWindowDanhMuc");
+                    oWnd.setUrl(args);
+                    ownd.center();
+            }
+
+            function RadMenu1_ClientItemClicked(sender, eventArgs) {
+                var item = eventArgs.get_item();
+                switch (item.get_value()) {
+                    case "doimk":
+                        showDialogDanhMuc( "~/QuanTri/DoiMK.aspx");
+                        break;
+                    case "dantoc":
+                        showDialogDanhMuc("../Category/QLDanToc.aspx");
+                        break;
+                    case "tongiao":
+                        showDialogDanhMuc("../Category/QLTonGiao.aspx");
+                        break;
+                    case "quoctich":
+                        showDialogDanhMuc("../Category/QLQuocTich.aspx");
+                        break;
+                    case "honnhan":
+                        showDialogDanhMuc("../Category/QLTTHonNhan.aspx");
+                        break;
+                    case "nhanthan":
+                        showDialogDanhMuc("../Category/QLQHNhanThan.aspx");
+                        break;
+                    case "loaihinh":
+                        showDialogDanhMuc("../Category/QLLoaiHinhDT.aspx");
+                        break;
+                    case "trinhdo":
+                        showDialogDanhMuc("../Category/QLTrinhDoDT.aspx");
+                        break;
+                    case "chungchi":
+                        showDialogDanhMuc("../Category/QLChungChi.aspx");
+                        break;
+                    case "chuyennganh":
+                        showDialogDanhMuc("../Category/QLChuyenNganhDT.aspx");
+                        break;
+                    case "donvi":
+                        showDialogDanhMuc("../Category/QLDonViDT.aspx");
+                        break;
+                    case "loaibang":
+                        showDialogDanhMuc("../Category/QLLoaiBangDT.aspx");
+                        break;
+                    case "loaihopdong":
+                        showDialogDanhMuc("../Category/QLLoaiHopDong.aspx");
+                        break;
+                    case "bacngach":
+                        showDialogDanhMuc("../Category/QLBacNgach.aspx");
+                        break;
+                    case "chucdanhchuyenmon":
+                        showDialogDanhMuc("../Category/QLChucDanhChuyenMon.aspx");
+                        break;
+                    case "chucdanhcongviec":
+                        showDialogDanhMuc("../Category/QLChucDanhCongViec.aspx");
+                        break;
+                    case "captochuc":
+                        showDialogDanhMuc("../Category/QLCapToChuc.aspx");
+                        break;
+                    case "cocautochuc":
+                        showDialogDanhMuc("../Category/QLCoCauToChuc.aspx");
+                        break;
+                    case "loainghi":
+                        showDialogDanhMuc("../Category/QLLoaiNghi.aspx");
+                        break;
+                    case "saoluu":
+                        showDialogDanhMuc("../QuanTri/SaoLuuHeThong.aspx");
+                        break;
+                }
+            }
+
+            function OnClientclose(sender, args) {
+            }
+        </script>
+    <asp:ContentPlaceHolder id="footer" runat="server">
+    </asp:ContentPlaceHolder>
+    </telerik:RadAjaxPanel>
+    </form>
+</body>
+</html>

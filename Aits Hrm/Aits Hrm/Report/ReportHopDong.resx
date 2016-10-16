@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="textBox14.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="textBox14.Value" xml:space="preserve">
+    <value>- Loại hợp đồng lao động:</value>
+  </data>
+  <data name="textBox9.Value" xml:space="preserve">
+    <value>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+------------------------------------</value>
+  </data>
+  <data name="textBox10.Value" xml:space="preserve">
+    <value>TÊN ĐƠN VỊ: CÔNG TY CỔ PHẦN TIN HỌC- VIỄN THÔNG HÀNG KHÔNG.</value>
+  </data>
+  <data name="textBox11.Value" xml:space="preserve">
+    <value>HỢP ĐỒNG LAO ĐỘNG</value>
+  </data>
+  <data name="textBox16.Value" xml:space="preserve">
+    <value>Số:</value>
+  </data>
+  <data name="textBox1.Value" xml:space="preserve">
+    <value>Thỏa thuận ký kết hợp đồng lao động và cam kết làm đúng những điều khoản sau đây:</value>
+  </data>
+  <data name="textBox2.Value" xml:space="preserve">
+    <value>Điều 1: Thời hạn và công việc hợp đồng</value>
+  </data>
+  <data name="textBox3.Value" xml:space="preserve">
+    <value>Điều 2: Chế độ làm việc</value>
+  </data>
+  <data name="textBox4.Value" xml:space="preserve">
+    <value>Điều 3: Nghĩa vụ và quyền lợi của người lao động</value>
+  </data>
+  <data name="textBox5.Value" xml:space="preserve">
+    <value>Điều 4: Nghĩa vụ và quyền hạn của người sử dụng lao động</value>
+  </data>
+  <data name="textBox6.Value" xml:space="preserve">
+    <value>Điều 5: Điều khoản thi hành</value>
+  </data>
+  <data name="textBox7.Value" xml:space="preserve">
+    <value>- Thời giờ làm việc: Là 8 giờ trong ngày và 42 giờ một tuần. Thời gian làm việc cụ thể hàng ngày, hàng tuần theo quy định của AITS.
+- Được cấp phát những dụng cụ phục vụ cho công tác chuyên môn. 
+</value>
+  </data>
+  <data name="textBox8.Value" xml:space="preserve">
+    <value>1. Quyền lợi:
+- Phương tiện đi lại làm việc: Người lao động tự túc.</value>
+  </data>
+  <data name="textBox12.Value" xml:space="preserve">
+    <value>1.Nghĩa vụ:
+- Bảo đảm việc làm và thực hiện  những điều đã cam kết trong hợp đồng lao động, Thỏa ước lao động tập thể
+- Thanh toán đầy đủ, đúng thời hạn các chế độ và quyền lợi cho người lao động theo hợp đồng lao động, thỏa ước lao động tập thể (nếu có).
+2. Quyền hạn: 
+- Điều hành người lao động hoàn thành công việc theo hợp đồng (bố trí, điều chuyển, tạm ngừng việc) 
+- Tạm hoãn, chấm dứt hợp đồng lao động, kỷ luật người lao động theo quy định của pháp luật, thỏa ước lao động tập thể (nếu có) và nội quy lao động của Công ty. </value>
+  </data>
+  <data name="textBox13.Value" xml:space="preserve">
+    <value>- Những vấn đề về lao động không ghi trong Hợp đồng lao động này thì áp dụng Nội quy  lao động, Thỏa ước lao động tập thể và Luật lao động.
+- Hợp đồng lao động được làm thành 02 bản có giá trị như  nhau, mỗi bên giữ một bản và có hiệu lực từ {=ShowNgayThang(Fields.TuNgay)}
+Hợp đồng này làm tại 414  Nguyễn Văn Cừ- Long biên - Hà nội
+</value>
+  </data>
+  <data name="textBox18.Value" xml:space="preserve">
+    <value>Từ {=ShowNgayThang(Fields.TuNgay)}</value>
+  </data>
+  <data name="textBox20.Value" xml:space="preserve">
+    <value>=ShowNgayHetHD(IsNull(Fields.DenNgay, ""), Fields.IDLoaiHD)</value>
+  </data>
+  <data name="textBox22.Value" xml:space="preserve">
+    <value>- Địa điểm làm việc:</value>
+  </data>
+  <data name="textBox23.Value" xml:space="preserve">
+    <value>=DiaDiemLamViec</value>
+  </data>
+  <data name="textBox24.Value" xml:space="preserve">
+    <value>- Chức danh chuyên môn:  </value>
+  </data>
+  <data name="textBox25.Value" xml:space="preserve">
+    <value>=ChucDanh</value>
+  </data>
+  <data name="textBox26.Value" xml:space="preserve">
+    <value>- Công việc phải làm: (Tại thời điểm ký Hợp đồng) </value>
+  </data>
+  <data name="textBox28.Value" xml:space="preserve">
+    <value>Trình độ chuyên môn:</value>
+  </data>
+  <data name="textBox29.Value" xml:space="preserve">
+    <value>=TrinhDoChuyenMon</value>
+  </data>
+  <data name="textBox32.Value" xml:space="preserve">
+    <value>Hà nội {=ShowNgayThang(Fields.NgayKyHD)}</value>
+  </data>
+  <data name="textBox33.Value" xml:space="preserve">
+    <value>CÔNG TY CỔ PHẦN TIN HỌC- VIỄN THÔNG  HÀNG KHÔNG
+</value>
+  </data>
+  <data name="textBox34.Value" xml:space="preserve">
+    <value>=Fields.ChucDanhNguoiDaiDien.ToUpper()</value>
+  </data>
+  <data name="textBox35.Value" xml:space="preserve">
+    <value>NGƯỜI LAO ĐỘNG</value>
+  </data>
+  <data name="textBox36.Value" xml:space="preserve">
+    <value>(Kí, ghi rõ họ tên)</value>
+  </data>
+  <data name="textBox37.Value" xml:space="preserve">
+    <value>=NguoiLaoDong</value>
+  </data>
+  <data name="textBox38.Value" xml:space="preserve">
+    <value>=NguoiDaiDien</value>
+  </data>
+  <data name="textBox27.Value" xml:space="preserve">
+    <value>- Hình thức trả lương: Theo qui chế tiền lương, thưởng của AITS
+- Phương thức và kỳ hạn: Chuyển khoản vào tài khoản cá nhân.
+- Tiền thưởng: Được hưởng theo hiệu quả công việc, kết quả kinh doanh và theo qui định của AITS.
+- Chế độ điều chỉnh lương: Theo hiệu quả công việc, qui định của Pháp luật và của AITS
+- Chế độ nghỉ ngơi (nghỉ hàng tuần, phép năm, lễ tết...): Theo qui chế chung của Nhà nước và của AITS.
+- Bảo hiểm xã hội(BHXH), bảo hiểm y tế (BHYT) và bảo hiểm thất nghiệp (BHTT): Theo chế độ chung của Nhà nước.
+- Chế độ đào tạo: Được hưởng chế độ đào tạo theo qui định của AITS.
+Những thỏa thuận khác: Được hưởng các quyền lợi khác theo Thỏa ước lao động tập thể và các quy định của AITS.</value>
+  </data>
+  <data name="textBox57.Value" xml:space="preserve">
+    <value>- Mức lương thu nhập được hưởng {=MucHuong}% theo chức danh công việc</value>
+  </data>
+  <data name="textBox17.Value" xml:space="preserve">
+    <value>=SoHD</value>
+  </data>
+  <data name="textBox60.Value" xml:space="preserve">
+    <value>{=ChucDanhCongViec} ({=MaChucDanhCongViec})</value>
+  </data>
+  <data name="textBox39.Value" xml:space="preserve">
+    <value>- Chấp hành lệnh điều hành sản xuất - kinh doanh, nội quy kỷ luật lao động, an toàn lao động ...
+- Bồi thường vi phạm và chịu trách nhiệm vật chất (nếu có) theo quy định của Pháp luật và của AITS.</value>
+  </data>
+  <data name="textBox41.Value" xml:space="preserve">
+    <value>2. Nghĩa vụ:
+- Làm việc cho AITS theo đúng thời hạn đã thỏa thuận giữa hai bên.
+- Hoàn thành những công việc đã cam kết trong hợp đồng này và theo qui định của AITS.</value>
+  </data>
+  <metadata name="entityDataSource1.DefaultValues" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdUZWxlcmlrLlJlcG9ydGluZywgVmVyc2lvbj02LjAuMTIuMzMw
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWE5ZDc5ODNkZmNjMjYxYmUFAQAAADVUZWxl
+        cmlrLlJlcG9ydGluZy5PYmplY3REYXRhU291cmNlUGFyYW1ldGVyQ29sbGVjdGlvbgEAAAASQ29sbGVj
+        dGlvbmAxK2l0ZW1zA6kBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tUZWxlcmlrLlJl
+        cG9ydGluZy5PYmplY3REYXRhU291cmNlUGFyYW1ldGVyLCBUZWxlcmlrLlJlcG9ydGluZywgVmVyc2lv
+        bj02LjAuMTIuMzMwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWE5ZDc5ODNkZmNjMjYx
+        YmVdXQIAAAAJAwAAAAQDAAAAqQFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1RlbGVy
+        aWsuUmVwb3J0aW5nLk9iamVjdERhdGFTb3VyY2VQYXJhbWV0ZXIsIFRlbGVyaWsuUmVwb3J0aW5nLCBW
+        ZXJzaW9uPTYuMC4xMi4zMzAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YTlkNzk4M2Rm
+        Y2MyNjFiZV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAtVGVsZXJpay5SZXBvcnRpbmcuT2Jq
+        ZWN0RGF0YVNvdXJjZVBhcmFtZXRlcltdAgAAAAgICQQAAAABAAAABgAAAAcEAAAAAAEAAAAEAAAABCtU
+        ZWxlcmlrLlJlcG9ydGluZy5PYmplY3REYXRhU291cmNlUGFyYW1ldGVyAgAAAAkFAAAADQMMBgAAAElT
+        eXN0ZW0sIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdh
+        NWM1NjE5MzRlMDg5BQUAAAArVGVsZXJpay5SZXBvcnRpbmcuT2JqZWN0RGF0YVNvdXJjZVBhcmFtZXRl
+        cgQAAAAIZGF0YVR5cGUYRGF0YVNvdXJjZVBhcmFtZXRlcituYW1lGURhdGFTb3VyY2VQYXJhbWV0ZXIr
+        dmFsdWUjRGF0YVNvdXJjZVBhcmFtZXRlcitQcm9wZXJ0eUNoYW5nZWQDAQIEH1N5c3RlbS5Vbml0eVNl
+        cmlhbGl6YXRpb25Ib2xkZXIxU3lzdGVtLkNvbXBvbmVudE1vZGVsLlByb3BlcnR5Q2hhbmdlZEV2ZW50
+        SGFuZGxlcgYAAAACAAAACQcAAAAGCAAAAAtpREhvcERvbmdMRAoKBAcAAAAfU3lzdGVtLlVuaXR5U2Vy
+        aWFsaXphdGlvbkhvbGRlcgMAAAAERGF0YQlVbml0eVR5cGUMQXNzZW1ibHlOYW1lAQABCAYJAAAAblN5
+        c3RlbS5OdWxsYWJsZWAxW1tTeXN0ZW0uSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1
+        bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dBAAAAAYKAAAAS21z
+        Y29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3
+        YTVjNTYxOTM0ZTA4OQs=
+</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Zoom" type="System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1.5</value>
+  </metadata>
+  <metadata name="$this.ShowSnapGrid" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.SnapToSnapLines" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="$this.SnapGridSize" type="Telerik.Reporting.Drawing.Unit, Telerik.Reporting, Version=6.0.12.330, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+    <value>0.1in</value>
+  </metadata>
+  <data name="reportParameter1.Text" xml:space="preserve">
+    <value>iDHopDongLD</value>
+  </data>
+</root>
